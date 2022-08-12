@@ -234,7 +234,7 @@ def main():
         clock.tick(FPS)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                run = FALSE
+                run = False
                 break
         for launcher in launchers:
             launcher.loop(WIDTH, HEIGHT)
